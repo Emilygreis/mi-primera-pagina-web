@@ -1,0 +1,157 @@
+body * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #000F08 no-repeat padding-box;
+    padding: 30px 90px 30px 90px;
+    font-size: 25px;
+    size: 1920px;
+    }
+    
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    }
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30    px;
+}     
+
+.icono svg {
+    width: 2rem;   
+    fill: #ffffff;
+    vertical-align: middle;
+    margin-left: 75px;
+}
+
+header {
+    background-image: url(../img/bg-hero.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: right;
+    padding: 100px 100px 150px 400px;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h2 {
+    font-size: 45px;
+    opacity: 1;
+    text-shadow:  0px 3px 6px #00000080;
+    margin-bottom: 20px;
+}
+
+.lugar {
+    text-align: center;
+    padding: 200px;
+}
+
+.lugar img {
+    /* width: 40%; */
+    top: 674px;
+    left: 701px;
+    width: 519px;
+    height: 344px;
+    margin-bottom: 30px;
+}
+
+
+.lugar p {
+    font-size:25px;
+   
+}
+
+#proxima-charla {
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+    margin: auto;
+    position: center;
+
+}
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 22%;
+    border-radius: 5px;
+    /* top: 1455px;
+    left: 513px;
+    width: 312px;
+    height: 294px; */
+}
+
+.wrapper .texto {
+    width: 45%;
+    margin-left: 4%;
+    font-size: 20px;
+    position: right;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+    position: center;
+}
+
+
+.eventos-anteriores {
+    /* text-align: center; */
+    padding: 100px 0px;
+}
+
+/* .eventos-anteriores div {
+     display: inline-block;
+ }  */
+ .eventos-anteriores h2 {
+    font-size: 37,5px;
+    margin-bottom: 70px;
+} 
+
+ .eventos-anteriores img {
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    }
+
+.eventos-anteriores h3 {
+    font-size: 22px;
+    margin-top: 20px;
+} 
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 60px 0px 25px 0px;
+   }
+
+footer i {
+    font-size: 75px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: #ffffff;
+}
